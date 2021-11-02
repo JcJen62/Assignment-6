@@ -22,7 +22,8 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
+    background-color: rgb(27, 80, 55);
+    color: #fff;
 }
 
 header h1 {
@@ -36,7 +37,7 @@ header h2 {
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: #666;
+    background-color: rgb(86, 182, 137);
 }
 
 nav ul {
@@ -52,7 +53,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    background-color: #444;
+    background-color: rgb(86, 182, 137);
     color: #eee;
     border-left: 1px solid #777;
     padding: .5rem 0;
@@ -66,12 +67,12 @@ nav ul li:first-child a {
 }
 
 nav ul li a:hover {
-    background-color: #eee;
-    color: #333;
+    background-color: rgb(55, 122, 91);
+    color: #fff;
 }
 
 nav ul li.active a {
-    background-color: #000;
+    background-color: rgb(55, 122, 91);
     color: #fff;
 }
 
@@ -138,9 +139,10 @@ main{
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color: rgb(86, 182, 137);
     padding: .5rem 2%;
     text-align: center;
+    color: #fff;
 }
 
 
